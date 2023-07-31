@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(233, 243, 243  );
+    height: 180vh;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    
+}
+header{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    box-shadow: 0px 0px 20px 3px gray;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+nav{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 40px;
+    margin-right: 50px;
+    
+}
+.nav_btn{
+    color: black;
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    
+}
+.logo_img{
+    max-width: 140px;
+    margin: 10px;
+    
+}
+.logo{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo_name{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+}
+.text_under_img{
+  text-align: center;
+  width: 1500px;
+  font-size: 35px;
+}
